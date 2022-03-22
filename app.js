@@ -1,14 +1,13 @@
 let name = "daniel";
 
-let try1 = require("./try1");
+let gretting = require("./gretting");
 
-let try2 = require("./try2");
 let sayhi = () => {
     console.log("Hello "+ name);
 };
 
 sayhi();
-try1.morining(name);
-try2.night(name);
+gretting.morning(name);
+gretting.night(name);
 console.log(__filename);
 console.log(__dirname);
